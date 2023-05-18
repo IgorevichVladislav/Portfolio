@@ -1,0 +1,15 @@
+.contact__link {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline transparent;
+    color: #2352de;
+    .contact__link:hover {
+        text-decoration-color: #2352de;
+      }
+    transition: text-decoration-color 0.5s, opacity 0.5s;
+    .contact__link:not(:last-child) {
+        padding-bottom: 15px;
+      }
+  }
+  
